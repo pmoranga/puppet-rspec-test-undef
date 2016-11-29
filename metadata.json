@@ -5,6 +5,7 @@
   "license": "Apache-2.0",
   "summary": "Just some tests",
   "tags": ["rspec"],
+  "source": "https://github.com/pmoranga/puppet-rspec-test-undef",
   "operatingsystem_support": [
     {
       "operatingsystem": "RedHat",
