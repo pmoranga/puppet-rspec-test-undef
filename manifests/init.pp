@@ -22,9 +22,9 @@ class test(
   }
 
   if $facts['fact1'] == undef {
-    notice ('fact1 is undef when comparing as: $facts['fact1'] == undef')
+    notice ('fact1 is undef when comparing as: $facts["fact1"] == undef')
   } else {
-    notice('fact1 is not undef when comparing as: $facts['fact1'] == undef')
+    notice('fact1 is not undef when comparing as: $facts["fact1"] == undef')
   }
 
 }
