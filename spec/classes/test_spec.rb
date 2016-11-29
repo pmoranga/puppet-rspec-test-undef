@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'filebeat', :type => :class do
+describe 'test', :type => :class do
   context 'defaults' do
     context 'When fact is desired undef ' do
 
