@@ -10,6 +10,7 @@ RSpec.configure do |c|
     Facter.clear_messages
 
     Puppet.settings[:strict_variables]=true
+    Puppet.settings[:trusted_node_data] = true
 
     # Store any environment variables away to be restored later
     @old_env = {}
